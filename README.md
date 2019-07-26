@@ -1,5 +1,9 @@
-### 请前往简书  [点击跳转](https://www.jianshu.com/p/bf2e6e5a3ba0)
-### 喜欢就 star下,非常感谢o(∩_∩)o~~~
+####仿https://github.com/yanxuwen/DragViewLayout
+####稍微修改了一下，方便自己使用
+
+具体使用DragViewUtil.showImgs(TestActivity4.this, 0, views, listdata);
+//showImgs(final Activity context, int currentIndex, final ArrayList<View> views, final ArrayList<Object> imgDatas) 
+
 
 
 #### 高仿微信可拖拽返回PhotoView,也支持像今日头条里面的小视频进行拖曳。如下图：
