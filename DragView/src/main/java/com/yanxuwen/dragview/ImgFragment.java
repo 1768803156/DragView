@@ -47,8 +47,12 @@ public class ImgFragment extends DragFragment implements View.OnClickListener {
     @Override
     public void onClick(View view) {
         if (view.getId() == R.id.dragview) {
-            System.out.println("---------onClick------");
-            getActivity().onBackPressed();
+            try {
+                if (!getActivity().isFinishing())
+                    getActivity().onBackPressed();
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
         }
     }
 }
